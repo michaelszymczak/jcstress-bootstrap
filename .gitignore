@@ -1,6 +1,6 @@
-*.iml
-results/
-target/
-
-jcstress.*
+/*.iml
+/results/
+/target/
+/jcstress.*
+/.idea/
 
