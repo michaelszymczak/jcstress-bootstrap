@@ -2,9 +2,9 @@
 
 ### Problem
 
-One thread A process a stream that originates from a collection, let's say an ArrayList.
-What happens when another thread B modifies the collection when the stream is being processed by another thread?
-Does the thread B see the changes made by thread A, or maybe ignore them?
+One thread A processes a stream that originates from some collection (let's say an ArrayList).
+What happens when another thread B modifies the collection when the stream is being processed by the thread A?
+Does the thread B see the changes made by thread A, or maybe it ignores them?
 
 ### Test
 
@@ -29,6 +29,6 @@ Refresh results/com.michaelszymczak.jcstressbootstrap.sample.StreamTest.html or 
 ### Conclusion
 
 Java prevents us from modifying collections currently processed using streams. I think that's good decision - the fail fast approach may
-save a lot of time and forces us to think about the problem instead of ignoring it.
+save a lot of time and forces us to think about the problem instead of ignoring it. Using tools such as jcstress may save us a lot of trouble.
 
     
