@@ -31,4 +31,10 @@ Refresh results/com.michaelszymczak.jcstressbootstrap.sample.StreamTest.html or 
 Java prevents us from modifying collections currently processed using streams. I think that's good decision - the fail fast approach may
 save a lot of time and forces us to think about the problem instead of ignoring it. Using tools such as jcstress may save us a lot of trouble.
 
+### Further reading
+
+The documentation clarifies the behaviour: https://docs.oracle.com/javase/8/docs/api/java/util/ConcurrentModificationException.html
+
+Interesting explanation can be also found here: http://blog.jooq.org/2014/06/13/java-8-friday-10-subtle-mistakes-when-using-the-streams-api/ (8. Modifying the backing collection of a stream)
+
     
