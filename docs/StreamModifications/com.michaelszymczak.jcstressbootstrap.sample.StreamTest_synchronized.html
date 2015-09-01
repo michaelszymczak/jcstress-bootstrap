@@ -57,7 +57,7 @@ public class StreamTest {
     Fixture() {
     list = new ArrayList<>();
     list.add(1);
-    list.add(2); // will be always visible, see: http://tech.puredanger.com/2008/11/26/jmm-and-final-field-freeze/
+    list.add(2); // always visible, see: http://tech.puredanger.com/2008/11/26/jmm-and-final-field-freeze/
     }
 
     public synchronized void modify() {

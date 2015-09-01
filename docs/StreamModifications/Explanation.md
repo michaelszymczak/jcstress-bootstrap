@@ -16,15 +16,15 @@ that is used to verify assumptions about code correctness in a multithreaded env
     make run
 
 Now you can open results/com.michaelszymczak.jcstressbootstrap.sample.StreamTest.html 
-in the browser or see the already [prepared version](com.michaelszymczak.jcstressbootstrap.sample.StreamTest_synchronized.html)
+in the browser or see the already [prepared version](http://htmlpreview.github.io/?https://raw.githubusercontent.com/michaelszymczak/jcstress-bootstrap/master/docs/StreamModifications/com.michaelszymczak.jcstressbootstrap.sample.StreamTest_synchronized.html)
 
 Let's remove synchronization from modify or sum methods and see what will happen.
 
     make run
     
 Refresh results/com.michaelszymczak.jcstressbootstrap.sample.StreamTest.html or see prepared versions:
-[read not synchronized](com.michaelszymczak.jcstressbootstrap.sample.StreamTest_sum_not_synchronized.html)
-[write not synchronized](com.michaelszymczak.jcstressbootstrap.sample.StreamTest_modify_not_synchronized.html)
+[read not synchronized](http://htmlpreview.github.io/?https://raw.githubusercontent.com/michaelszymczak/jcstress-bootstrap/master/docs/StreamModifications/com.michaelszymczak.jcstressbootstrap.sample.StreamTest_sum_not_synchronized.html)
+[write not synchronized](http://htmlpreview.github.io/?https://raw.githubusercontent.com/michaelszymczak/jcstress-bootstrap/master/docs/StreamModifications/com.michaelszymczak.jcstressbootstrap.sample.StreamTest_modify_not_synchronized.html)
 
 ### Conclusion
 
